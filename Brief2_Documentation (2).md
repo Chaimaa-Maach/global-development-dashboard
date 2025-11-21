@@ -1,7 +1,7 @@
 
 # ✔ Global Development Dashboard — World Progress 2030
 
-## Presentation d'quipe 
+## Presentation d'équipe 
 1_Leila Mourid
 
 2_Chaimaa Maach
@@ -11,44 +11,21 @@
 4_Hiba Azizi
 
 # ✔Repartition des taches:
-<img width="1354" height="571" alt="image" src="https://github.com/user-attachments/assets/34552e4d-33ef-4720-b8f6-8b5ab07b4116" />
+<img width="1000" height="300" alt="image" src="https://github.com/user-attachments/assets/34552e4d-33ef-4720-b8f6-8b5ab07b4116" />
 
 
 ---
 
-## ✔  Contexte du Projet
-GDW pilote le programme **“World Progress 2030”** pour suivre le développement économique et environnemental mondial à partir de données ouvertes.
-
-**Problème à résoudre :**  
-- Identifier les zones de **croissance durable**  
-- Détecter les **risques écologiques**  
-- Orienter les **priorités de financement**  
-
-** ✔ Objectif :**  
-Créer un **tableau de bord Power BI** permettant de visualiser PIB, population et émissions de CO₂ par pays, avec des **KPIs pertinents** et un **storytelling clair**.
-
-
----
-
-## ✔  Objectifs du projet
-- Automatiser l’extraction des données depuis **deux APIs REST**  
-- Nettoyer, croiser et modéliser des jeux de données hétérogènes  
-- Créer un **modèle de données cohérent** entre indicateurs économiques et géographiques  
-- Définir et calculer des **KPIs équilibrés** (performance / impact)  
-- Produire un **rapport Power BI interactif** à 4 pages  
-- Collaborer efficacement au sein d’une équipe de 4, avec documentation continue  
-
----
 ## ✔ Étapes dans Power BI (Power Query)
 
-1. ** ✔ Importer l’API REST Countries**  
+1. **Importer l’API REST Countries**  
    - Power BI Desktop → `Transform Data`  
    - `Home → Get Data → Web`  
    - Coller l’URL : `https://restcountries.com/v3.1/all`  
    - Sélectionner **JSON** → Convertir en table → Dérouler les colonnes nécessaires  
    - Vérifier les types de colonnes (texte, nombre, booléen)  
 
-2. ** ✔ Importer l’API World Bank**  
+2. **Importer l’API World Bank**  
    - Power BI Desktop → `Transform Data → Get Data → Web`  
    - URL exemple pour PIB : `https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.CD?date=2015:2022&format=json`  
    - Convertir JSON en table → Dérouler colonnes → Filtrer années 2015-2022  
